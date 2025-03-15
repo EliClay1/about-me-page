@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+    <title>About Eli</title>
+</head>
+<body id="body" class="light-mode">
+    <!-- <button id="dark-mode-toggle">Switch to Dark Mode</button> -->
+
+    <label for="dark-mode-toggle" id="toggle-label">
+        <input type="checkbox" id="dark-mode-toggle">
+        Dark Mode
+      </label>
+
+      <script>
+        const body = document.getElementById("body");
+        const toggleSwitch = document.getElementById("dark-mode-toggle");
+
+        toggleSwitch.addEventListener("click", function() {
+            body.classList.toggle("dark-mode");
+    
+            if (body.classList.contains("dark-mode")) {
+                toggleSwitch.textContent = "Switch to Light Mode";
+            } else {
+                toggleSwitch.textContent = "Switch to Dark Mode";
+            }
+        });
+    </script>
+
+      </script>
+    <h1 class="title">So Who the Heck is Eli Clayson?</h1>
+    <hr>
+    <div class="p-div">
+        <p><i>Many think that Eli Clayson is a vast adventurer, one who braves new planets, and changes the world. </i> Unfortunately, the truth is much <i>much</i> farther from that. So let me introduce you to a semi-wonderful person who likes pizza and video editing...</p>
+    </div>
+    
+    <h2 class="title">Hobbies? Never heard of em...</h2>
+    <ul>
+        <li>Videography (my current job)</li>
+        <li>Game Modding (working on a minecraft mod right now)</li>
+        <li>Insert third thing here</li>
+    </ul>
+    <div class="p-div">
+        <p>My hobbies kind of range, and they definitely shift around rather frequently. Currently I am helping create a community operated minecraft movie, so we'll see how that goes... From philosophy to astrology, my interests are constantly shifting around left, right, and center. I love learning new things, so this list is basically always changing.</p>
+    </div>
+    
+    <br>
+    <h2 class="title">Mi Familia</h2>
+    <div class="p-div">
+        <p>My family is rather disfunctional, but what modern day family isn't? ¯\_(ツ)_/¯  Regardless of that lovely information, here's the roster!</p>
+    </div>
+    <ul>
+        <li>Padre - Scott </li>
+        <li>Madre - Alisha </li>
+        <li>Sister - Celeste </li>
+        <li>Brother 1 - Josh</li>
+        <li>Brother 2 - Aaron</li>
+    </ul>
+    <p>Yep, that is pretty much all you get to know about my family. Moving on!</p>
+    <br>
+    <h2 class="title">Educationer? I hardly know her!</h2>
+    <div class="p-div">
+        <p>I got my highschool deploma when I was, what, 18? or something? 2024, that's all I know. I am currently a freshman in College, pretty neat stuff. I am studyng Cybersecurity, big surprise. Annnnnnd I work for the BYU College of Nursing, which I guess kinda goes with my education. Cool stuff.</p>
+    </div>
+</body>
+</html>
